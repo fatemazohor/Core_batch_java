@@ -9,11 +9,30 @@
     <style>
        
        #nav{
-
-        list-style-type: none;
-        
-
+        width: 100%;
+        height: 30px;
+        margin: 0px;
+        padding: 0px;
+        background-color: aquamarine;
        }
+
+       #nav ul li{
+        list-style-type: none;
+        float: left;
+        font-weight: 700;
+        margin: 0px 5px;
+        padding: 5px;
+        }
+
+        #nav ul li a{
+            text-decoration: none;
+            color:black;
+        }
+
+        #nav ul li a:hover{
+            display: block;
+            background-color:rgb(200, 253, 253);
+        }
         #tableone{
             border: 3px;
         }
@@ -39,11 +58,11 @@
 </head>
 <body>
     <article>
-      <div>
-        <ul id="nav">
-            <li>Home</li>
-            <li>Class</li>
-            <li>Projects</li>
+      <div id="nav">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#class">Class</a></li>
+            <li><a href="#projects">Projects</a></li>
         </ul>
 
       </div>  
@@ -68,7 +87,7 @@
             <li>Paragraph tag</li>
         </ul>
 
-        <h2>Day 02, Date:02 May</h2>
+        <h2>Day 02, Date:02nd May</h2>
         <p>Topic: Document Head</p>
         <ul>
             <li>Table tag</li>
@@ -76,7 +95,7 @@
         </ul>
 
         
-        <h2>Day 03, Date:03 May</h2>
+        <h2>Day 03, Date:03rd May</h2>
         <p>Topic: Nested list, dl</p>
         <ul>
             <li>Nested list tag</li>
@@ -103,7 +122,13 @@
                 div tag
             </li>
         </ul>
-
+        <h2>Day 04, Date:6th May</h2>
+        <p>Topic: </p>
+        <ul>
+            <li>Doctype Html</li>
+            <li>Heading tag</li>
+            <li>Paragraph tag</li>
+        </ul>
     <div>
         <h1>Class Report at a glance.</h1>
         <table id="tableone">
