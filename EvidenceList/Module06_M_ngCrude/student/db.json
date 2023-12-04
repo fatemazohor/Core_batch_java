@@ -1,0 +1,38 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "name": "Kamrul Hasan Opu",
+      "department": "JEE",
+      "marks": "48"
+    },
+    {
+      "id": 2,
+      "name": "Yunuse Ali Armani",
+      "department": "DDD",
+      "marks": "42"
+    },
+    {
+      "id": 3,
+      "name": "Javed Karim",
+      "department": "WDPF",
+      "marks": "43"
+    },
+    {
+      "id": 5,
+      "name": "AK Karim gty",
+      "department": "JEE",
+      "marks": "45"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
